@@ -2,7 +2,7 @@
 #include <string>
 
 
-auto tetradeToBin(std::uint8_t const& t) -> std::string_view
+constexpr auto tetradeToBin(std::uint8_t const& t) -> std::string_view
 {
     switch (t & 0x0f)
     {   default:
